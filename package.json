@@ -1,0 +1,21 @@
+{
+  "name": "gas-fetch",
+  "version": "1.0.0",
+  "description": "CLI tool to fetch Google Apps Script web apps with automatic Workspace authentication",
+  "main": "index.js",
+  "bin": {
+    "gas": "./index.js",
+    "gas-fetch": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": ["google-apps-script", "gas", "workspace", "cli", "fetch", "playwright"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": ["index.js", "README.md", "LICENSE"],
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
