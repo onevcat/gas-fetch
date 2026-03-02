@@ -1,6 +1,6 @@
 # gas-fetch
 
-CLI tool to fetch [Google Apps Script](https://developers.google.com/apps-script) web apps, with automatic Google Workspace authentication.
+CLI tool to execute [Google Apps Script](https://developers.google.com/apps-script) web apps, with automatic Google Workspace authentication.
 
 ## Problem
 
